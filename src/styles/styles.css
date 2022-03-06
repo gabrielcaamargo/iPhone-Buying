@@ -1,0 +1,83 @@
+@import url(//db.onlinewebfonts.com/c/09f79b480eabca839b233bdde61980ac?family=SF+Pro+Icons+Regular);
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#container{
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  height: 100vh;
+  font-family: 'SF Pro Icons', sans-serif;
+}
+
+#cellphoneImageArea{
+  background-color: #187fce;
+  text-align: center;
+  width: 60%;
+}
+
+#cellphoneImageArea{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#defineCellphoneSpecs{
+  width: 40%;
+  padding: 2.5rem 2.5rem 0;
+}
+
+h3{
+  font-size: 24pt;
+  color: rgb(66, 66, 66);
+}
+
+p{
+  font-size: 16pt;
+}
+
+#capacity{
+  margin-top: 2.5rem;
+}
+
+input{
+  width: 49%;
+  padding: 1rem;
+  margin: .5rem .3rem 0 0;
+  border-radius: 0px;
+  border: 1.8px solid rgb(156, 156, 156);
+  font-weight: bolder;
+  transition: .2s ease-in-out;
+  cursor: pointer;
+}
+
+input:hover{  
+  background-color: rgb(223, 223, 223);
+}
+
+#colors{
+  margin-top: 1.5rem;
+  text-align: left;
+}
+
+#selectedIphone{
+  text-align: center;
+  margin-top: 1rem;
+}
+
+span{
+  font-weight: bolder;
+}
+
+#cellphoneColors input{
+  margin-bottom: .8rem;
+}
+
+#cellphoneColors{
+  text-align: center;
+}
